@@ -6,6 +6,17 @@
 </head>
 <body>
 
+	<canvas id="canvas"></canvas>
+
     <script src="src/Tween.js"></script>
+    <script src="src/Animation.js"></script>
+    <script>
+    	window.onload = function() {
+    		Animation({
+    			el: "#canvas",
+    			imgUrl: "img/beauty.jpg"
+    		});
+    	};
+    </script>
 </body>
 </html>
